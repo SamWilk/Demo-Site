@@ -10,7 +10,8 @@ export default function SiteHeader({ variant = "light" }) {
       <nav className={styles.navLinks} aria-label="Main navigation">
         <Link href="/#proof">Reviews</Link>
         <Link href="/#services">Services</Link>
-        <Link href="/#contact">Contact</Link>
+        <Link href="/gallery">Gallery</Link>
+        <Link href="/#contact-form">Contact</Link>
       </nav>
     </header>
   );

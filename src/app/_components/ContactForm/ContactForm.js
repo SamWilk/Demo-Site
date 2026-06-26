@@ -25,6 +25,7 @@ export default function ContactForm() {
 
   return (
     <form
+      id="contact-form"
       className={styles.contactForm}
       action={formAction}
       aria-label="Request service from Burress Home Services"
