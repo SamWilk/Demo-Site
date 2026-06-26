@@ -1,0 +1,17 @@
+import Link from "next/link";
+import styles from "./SiteHeader.module.css";
+
+export default function SiteHeader({ variant = "light" }) {
+  return (
+    <header className={`${styles.header} ${styles[variant]}`}>
+      <Link className={styles.brand} href="/" aria-label="Burress Home Services home">
+        Burress Home Services
+      </Link>
+      <nav className={styles.navLinks} aria-label="Main navigation">
+        <Link href="/#proof">Reviews</Link>
+        <Link href="/#services">Services</Link>
+        <Link href="/#contact">Contact</Link>
+      </nav>
+    </header>
+  );
+}
