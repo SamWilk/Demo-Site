@@ -14,9 +14,9 @@ const highlights = [
     icon: "f",
   },
   {
-    name: "Phone",
-    handle: "Call directly for repair, installation, and renovation help",
-    href: "tel:+19048850229",
+    name: "Service request",
+    handle: "Send repair, installation, and renovation details through the form",
+    href: "/#contact-form",
     icon: "904",
   },
 ];

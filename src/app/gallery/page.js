@@ -111,7 +111,7 @@ export default function GalleryPage() {
             A visual look at repair, finish, and improvement projects from the
             Jacksonville service area.
           </p>
-          <Link href="/#contact">Request service</Link>
+          <Link href="/#contact-form">Request service</Link>
         </div>
       </section>
 

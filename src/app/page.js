@@ -37,17 +37,17 @@ const services = [
   {
     title: "Handyman Repairs",
     copy: "Door repair, drywall patching, window repair, caulking, cabinet repair, assembly, and the small fixes that keep a home working.",
-    href: "#contact",
+    href: "#contact-form",
   },
   {
     title: "Renovation Support",
     copy: "Remodeling help, deck construction, tile work, flooring, siding, painting, and project punch-list support.",
-    href: "#contact",
+    href: "#contact-form",
   },
   {
     title: "Home Systems Help",
     copy: "Plumbing repair, electrical repair, appliance installation, gutter repair, gutter cleaning, and practical maintenance tasks.",
-    href: "#contact",
+    href: "#contact-form",
   },
 ];
 
@@ -76,8 +76,8 @@ export default function Home() {
               flooring, gutters, and more across Jacksonville and nearby areas.
             </p>
             <div className={styles.heroActions}>
-              <a className={styles.primaryButton} href="tel:+19048850229">
-                Call (904) 885-0229
+              <a className={styles.primaryButton} href="#contact-form">
+                Request service
               </a>
               <Link className={styles.secondaryButton} href="#services">
                 View services

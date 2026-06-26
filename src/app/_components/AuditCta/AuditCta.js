@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./AuditCta.module.css";
 
 export default function AuditCta() {
@@ -12,9 +13,9 @@ export default function AuditCta() {
         </p>
       </div>
       <div className={styles.actions}>
-        <a className={styles.primaryButton} href="tel:+19048850229">
-          Call (904) 885-0229
-        </a>
+        <Link className={styles.primaryButton} href="/#contact-form">
+          Request service
+        </Link>
         <a
           className={styles.secondaryButton}
           href="https://www.yelp.com/biz/burress-home-services-jacksonville"
